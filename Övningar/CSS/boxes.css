@@ -1,0 +1,40 @@
+/* div {
+    height: 300px;
+    border: 1px solid black;
+    float: left;
+    width: 100px;
+    height: 30px;
+} */
+
+.box-container {
+    border: 3px solid green;
+    position: relative;
+    height: 300px;
+    width: 500px;
+
+}
+ .box-small {
+    border: 3px solid red;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+ }
+ span {
+    text-transform: uppercase;
+    background-color: aqua;
+    
+ }
+ .box-container p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+ }
+

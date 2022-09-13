@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(238, 236, 233);
+}
+
+
+
+html {
+font-family: 'Courier New', Courier, monospace;
+font-size: 14pt;
+
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(133, 134, 134);
+    
+} 
+
+ul {
+    color: rgb(1, 49, 33);
+    border-left: 1px solid black;
+    list-style-type: square;
+    padding:20px;
+    margin: 10px;
+    
+}
+ul li:nth-child(odd){
+    background-color: blueviolet;
+}
+ul li{
+    border: 1px solid green;
+}
+ol {
+    list-style-type: upper-roman;
+    margin-left: 20px;
+}
+ol li:nth-child(even) {
+    background-color: aquamarine;
+
+}
+
+p {
+    font-size: 0,9rem;
+}
+
+span {
+    font-size: 1,3em;
+
+}
+
+.mydiv {
+    border: 1px solid green;
+    width: 100px;
+    height: 200px;
+    position: relative;
+}
+
+.circle {
+    border: 2px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+
+}

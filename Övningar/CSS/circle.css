@@ -1,0 +1,35 @@
+.container {
+    border: 2px black solid;
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+.circle {
+    border: 2px solid purple;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    background-color: purple;
+}
+body {
+    background-color: lightgray;
+}
+.flex-container {
+    border: 2px solid green;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+ }
+ .small-box {
+    border: solid 2px yellow;
+    width: 200px;
+    height: 100px;
+    
+}

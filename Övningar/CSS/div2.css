@@ -1,0 +1,16 @@
+body {
+    background-color: lightgray;
+}
+
+.div1 {
+    border: 2px solid red;
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+}
+.div2 {
+    border: 2px solid green;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
