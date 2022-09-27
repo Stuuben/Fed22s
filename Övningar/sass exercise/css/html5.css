@@ -1,0 +1,10 @@
+tbody {
+  background-color: lightgray;
+  border: 1px solid black;
+}
+
+tbody tr:nth-child(even) {
+  background-color: aqua;
+}
+
+/*# sourceMappingURL=html5.css.map */

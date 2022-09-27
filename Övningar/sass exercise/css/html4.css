@@ -1,0 +1,15 @@
+.square {
+  background-color: darkslateblue;
+  border: 2px solid black;
+  height: 300px;
+  margin: 20px;
+}
+
+.rectangle {
+  background-color: darkorange;
+  border: 1px solid red;
+  height: 500px;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=html4.css.map */

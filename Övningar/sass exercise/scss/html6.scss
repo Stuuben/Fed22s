@@ -1,0 +1,6 @@
+@use "variables" as var;
+
+li {
+    background-color: var.$primary-color;
+    color: var.$secondary-color;
+}
