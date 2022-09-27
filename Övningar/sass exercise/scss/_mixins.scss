@@ -1,7 +1,23 @@
-
+@use "variables" as var;
 
 @mixin datacell {
     background-color: lightgray;
     border: 1px solid black;
     
+}
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin images {
+    width: 200px;
+    border: 10px dotted;
+    border-radius: 25px;
+    border-color: var.$primary-color;
+    box-shadow: 5px 5px 5px 5px;
+
+  
 }
